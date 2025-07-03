@@ -54,6 +54,3 @@ recipi_app/
 3. Run React dev server:
    ```bash
    npm start
-     
-
-
