@@ -1,0 +1,19 @@
+# 🔥 Ignore Python virtual environment
+venv/
+
+# 🔥 Ignore Django and Python junk
+*.pyc
+__pycache__/
+db.sqlite3
+
+# 🔥 Ignore React build files and node_modules
+frontend/node_modules/
+frontend/build/
+
+# 🔥 Ignore system and editor files
+.DS_Store
+# .env
+*.log
+
+# 🔐 Optional (hide secrets)
+# backend/.env

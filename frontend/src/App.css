@@ -1,0 +1,19 @@
+.home {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-buttons button {
+  margin: 20px;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.home-buttons button:hover {
+  background-color: #2980b9;
+}
