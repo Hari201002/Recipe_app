@@ -30,24 +30,30 @@ recipi_app/
            source venv/bin/activate  # or venv\Scripts\activate on Windows
    
 2. Navigate to Backend folder
-       cd backend
+   ```bash
+           cd backend
    
 3.  Install dependencies:
+    ```bash
        pip install -r requirements.txt
         
 4. Apply migrations and run server:
+   ```bash
        python manage.py migrate
        python manage.py runserver
 
 ### ✅ Frontend (React)
 1. Navigate to frontend folder:
-     cd frontend
+   ```bash
+        cd frontend
    
 2. Install dependencies:
-     npm install
+   ```bash
+       npm install
    
 3. Run React dev server:
-     npm start
+    ```bash
+       npm start
      
 
 
