@@ -26,34 +26,34 @@ recipi_app/
 ### ✅ Backend (Django)
 1. Create virtual environment:
    ```bash
-           python -m venv venv
-           source venv/bin/activate  # or venv\Scripts\activate on Windows
+   python -m venv venv
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
    
 2. Navigate to Backend folder
    ```bash
-           cd backend
+   cd backend
    
 3.  Install dependencies:
     ```bash
-       pip install -r requirements.txt
+    pip install -r requirements.txt
         
 4. Apply migrations and run server:
    ```bash
-       python manage.py migrate
-       python manage.py runserver
+   python manage.py migrate
+   python manage.py runserver
 
 ### ✅ Frontend (React)
 1. Navigate to frontend folder:
    ```bash
-        cd frontend
+   cd frontend
    
 2. Install dependencies:
    ```bash
-       npm install
+   npm install
    
 3. Run React dev server:
-    ```bash
-       npm start
+   ```bash
+   npm start
      
 
 
