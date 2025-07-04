@@ -4,8 +4,8 @@ A full-stack web app built with **Django** and **React** that allows users to:
 
 ## 🚀 Features
 
-- 🔍 Search and filter recipes by title, category, or ingredients
-- ➕ Add, edit, and delete your own recipes
+- 🔍 Search and filter recipes by title and category
+- ➕ Add, and delete your own recipes
 - ✅ Mark recipes as “Tried” or “To Try”
 - 🧠 Suggest recipes using AI (Gemini API) based on ingredients you have
 - 🖼️ Upload recipe images
@@ -24,9 +24,10 @@ recipi_app/
 ## 🛠️ Setup Instructions
 
 ### ✅ Backend (Django)
-1. Create virtual environment:
+1. Install and Create virtual environment:
    ```bash
-   python -m venv venv
+   pip install virtualenv
+   virtualenv venv 
    source venv/bin/activate  # or venv\Scripts\activate on Windows
    
 2. Navigate to Backend folder
