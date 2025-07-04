@@ -22,7 +22,10 @@ recipi_app/
 │ └── src/ # React components
 
 ## 🛠️ Setup Instructions
-
+1. Clone the repository
+   ```bash
+   git clone <your-repo-url>
+   
 ### ✅ Backend (Django)
 1. Install and Create virtual environment:
    ```bash
